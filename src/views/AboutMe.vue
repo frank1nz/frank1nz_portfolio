@@ -55,7 +55,7 @@
               data-delay="340"
             >
               <a
-                href="/src/assets/Resume_Phumiphat_Wongsathit.pdf"
+                href="https://drive.google.com/file/d/1qQte56yTw0bVTolZ-GlgM1aNvFsckn0C/view?usp=sharing"
                 class="inline-flex items-center rounded-2xl bg-gray-900 px-5 py-3 text-white shadow-md ring-1 ring-black/10 transition hover:translate-y-[-1px] hover:shadow-lg"
               >
                 Download CV

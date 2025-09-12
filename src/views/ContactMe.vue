@@ -159,7 +159,7 @@ onBeforeUnmount(() => io?.disconnect())
                data-anim style="--d:500ms">
               <Icon icon="mdi:linkedin" width="18" /> LinkedIn
             </a>
-            <a href="/Resume_Phumiphat_Wongsathit.pdf"
+            <a href="https://drive.google.com/file/d/1qQte56yTw0bVTolZ-GlgM1aNvFsckn0C/view?usp=sharing"
                class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-800 hover:border-gray-300"
                data-anim style="--d:540ms">
               <Icon icon="mdi:file-document-outline" width="18" /> Resume
