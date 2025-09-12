@@ -64,8 +64,8 @@ yarn dev
 ```
 
 ## Project Structure
-frank1nz_portfolio
-
+```bash
+frank1nz_portfolio/
 ├── public/              # Static assets
 ├── src/
 │   ├── components/      # Reusable Vue components
@@ -75,4 +75,5 @@ frank1nz_portfolio
 ├── package.json
 ├── vite.config.ts
 └── README.md
+```
 
