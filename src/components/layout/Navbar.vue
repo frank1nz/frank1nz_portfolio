@@ -57,7 +57,6 @@
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
-import AboutMe from '../sections/AboutMe.vue'
 
 const LinkMe = [
   { name: 'About', href: '#about' },

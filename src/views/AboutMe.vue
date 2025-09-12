@@ -55,7 +55,7 @@
               data-delay="340"
             >
               <a
-                href="/Resume_Phumiphat_Wongsathit.pdf"
+                href="/src/assets/Resume_Phumiphat_Wongsathit.pdf"
                 class="inline-flex items-center rounded-2xl bg-gray-900 px-5 py-3 text-white shadow-md ring-1 ring-black/10 transition hover:translate-y-[-1px] hover:shadow-lg"
               >
                 Download CV
@@ -93,7 +93,7 @@
                 class="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/20 via-transparent to-white/10"
               ></div>
               <img
-                src="/IMG_2312.JPG"
+                src="../assets/my_picture.JPG"
                 alt="Phumiphat Wongsathit"
                 class="aspect-square w-full rounded-2xl object-cover shadow-lg"
               />

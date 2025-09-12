@@ -2,7 +2,7 @@
 import { computed, onMounted, onBeforeUnmount, ref } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Navigation, Pagination, A11y, Keyboard } from 'swiper/modules'
-import type { Project } from '../../models/projects'
+import type { Project } from '../models/projects'
 import { lazy } from 'react'
 
 const projects: Project[] = [
