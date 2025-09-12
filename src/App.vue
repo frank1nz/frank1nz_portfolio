@@ -8,7 +8,7 @@ const ContactMe = defineAsyncComponent(() => import('@/components/sections/Conta
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-900">
+  <div class="min-h-screen ">
     <Navbar />
     <AboutMe />
     <Skills />
