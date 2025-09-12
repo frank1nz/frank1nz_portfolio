@@ -1,7 +1,9 @@
 # 🌐 Personal Portfolio
 
+👉 **Live Website:** [frank1nz.onrender.com](https://frank1nz.onrender.com)
+
 My Portfolio Website built with **Vue 3, Vite, TailwindCSS, Swiper, and EmailJS**.
-This website showcases my **About Me **, ** Skills **, ** Projects **, and ** Contact** information in a clean and minimal style.  
+This website showcases my About Me, Skills, Projects, and Contact information in a clean and minimal style.  
 
 ![Vue](https://img.shields.io/badge/Vue-3-42b883?logo=vue.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
@@ -10,6 +12,7 @@ This website showcases my **About Me **, ** Skills **, ** Projects **, and ** Co
 ![EmailJS](https://img.shields.io/badge/EmailJS-4-0A7EC2?logo=gmail&logoColor=white)
 
 ---
+
 
 ## ✨ Features
 
