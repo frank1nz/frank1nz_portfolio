@@ -55,7 +55,7 @@
               data-delay="340"
             >
               <a
-                href="https://drive.google.com/file/d/1qQte56yTw0bVTolZ-GlgM1aNvFsckn0C/view?usp=sharing"
+                href="https://drive.google.com/file/d/1raqKsxpB612pMR49s0N0aH7VnWN5P9bd/view?usp=drive_link"
                 class="inline-flex items-center rounded-2xl bg-gray-900 px-5 py-3 text-white shadow-md ring-1 ring-black/10 transition hover:translate-y-[-1px] hover:shadow-lg"
               >
                 Download CV
