@@ -144,7 +144,7 @@ onBeforeUnmount(() => io?.disconnect())
           <div class="space-y-3" data-anim style="--d:420ms">
             <p class="text-sm font-semibold text-gray-900">Availability</p>
             <p class="text-sm text-gray-600">
-              Open to internships — Frontend / Full-stack <br />Flexible (Onsite / Remote / Hybrid)
+              Open to Full Time positions — Software Developer, Business/System Analyst, IT Support <br />Flexible (Onsite / Remote / Hybrid)
             </p>
           </div>
 
@@ -159,7 +159,7 @@ onBeforeUnmount(() => io?.disconnect())
                data-anim style="--d:500ms">
               <Icon icon="mdi:linkedin" width="18" /> LinkedIn
             </a>
-            <a href="https://drive.google.com/file/d/1raqKsxpB612pMR49s0N0aH7VnWN5P9bd/view?usp=drive_link"
+            <a href="https://drive.google.com/file/d/1h_KNs22bPEXCdl0u_tFZc8QHczEBhJkI/view?usp=sharing"
                class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-800 hover:border-gray-300"
                data-anim style="--d:540ms">
               <Icon icon="mdi:file-document-outline" width="18" /> Resume
@@ -169,7 +169,7 @@ onBeforeUnmount(() => io?.disconnect())
                data-anim style="--d:580ms">
               <Icon icon="ic:baseline-facebook" width="18" /> Facebook
             </a>
-            <a href="https://www.instagram.com/plscallfrank/" target="_blank"
+            <a href="https://www.instagram.com/boo_b33_/" target="_blank"
                class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-800 hover:border-gray-300"
                data-anim style="--d:620ms">
               <Icon icon="mdi:instagram" width="18" /> Instagram

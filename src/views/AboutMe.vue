@@ -2,7 +2,7 @@
   <section id="about" class="relative bg-white">
     <div class="mx-auto max-w-7xl px-6 py-24 lg:px-12">
       <div class="grid grid-cols-1 items-start gap-10 lg:grid-cols-12">
-        <!-- Left: Text + Education -->
+        <!-- Left: Text + Education + Experience -->
         <div class="lg:col-span-7">
           <div class="glass rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl relative overflow-hidden">
             <!-- Soft highlight -->
@@ -36,7 +36,7 @@
               class="reveal fade-up mt-4 text-base sm:text-lg text-gray-700"
               data-delay="180"
             >
-              Final-year Software Engineering student • Mae Fah Luang University (School of ADT)
+              Software Engineering • Mae Fah Luang University (School of ADT)
             </p>
 
             <!-- Lead -->
@@ -44,9 +44,7 @@
               class="reveal fade-up mt-6 text-lg leading-relaxed text-gray-800/90"
               data-delay="260"
             >
-              Frontend-focused developer aiming for full-stack. I love crafting clean UI/UX and
-              bridging frontend ↔ backend to ship reliable, scalable features. Strong collaboration,
-              code reviews, and pragmatic workflows are my defaults.
+              A Fresh graduate in Software Engineering with hands-on experience from a successful Full-Stack Developer internship at MFEC. I love crafting clean UI/UX, bridging frontend ↔ backend to ship scalable features, and analyzing systems to meet business needs. Currently, I am actively seeking full-time opportunities as a Software Developer, Business Analyst, System Analyst, or IT Support.
             </p>
 
             <!-- CTAs -->
@@ -55,22 +53,32 @@
               data-delay="340"
             >
               <a
-                href="https://drive.google.com/file/d/1raqKsxpB612pMR49s0N0aH7VnWN5P9bd/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1h_KNs22bPEXCdl0u_tFZc8QHczEBhJkI/view?usp=sharing"
                 class="inline-flex items-center rounded-2xl bg-gray-900 px-5 py-3 text-white shadow-md ring-1 ring-black/10 transition hover:translate-y-[-1px] hover:shadow-lg"
               >
                 Download CV
               </a>
+            </div>
 
+            <!-- Experience -->
+            <div class="reveal fade-up mt-10" data-delay="420">
+              <h3 class="mb-4 font-semibold text-gray-900 text-lg">Experience</h3>
+              <ul class="list-disc list-inside space-y-2 text-gray-800/90">
+                <li>
+                  <span class="font-medium">Full-Stack Developer (Intern)</span> At MFEC - <span class="text-sm text-gray-600">Completed</span>
+                </li>
+              </ul>
             </div>
 
             <!-- Education -->
-            <div class="reveal fade-up mt-10" data-delay="420">
+            <div class="reveal fade-up mt-6" data-delay="500">
               <h3 class="mb-4 font-semibold text-gray-900 text-lg">Education</h3>
               <ul class="list-disc list-inside space-y-2 text-gray-800/90">
                 <li>
-                  <span class="font-medium">B.Eng. in Software Engineering</span>, Mae Fah Luang University — GPAX ~ 3.19
+                  <span class="font-medium">B.Eng. in Software Engineering</span>, Mae Fah Luang University - GPAX 3.28
+                  
                 </li>
-                <li>Damrongratsongkroh School — Science-Math-English Program</li>
+                <li>Damrongratsongkroh School - Science-Math-English Program</li>
               </ul>
             </div>
           </div>
@@ -95,14 +103,14 @@
               <img
                 src="../assets/my_picture.JPG"
                 alt="Phumiphat Wongsathit"
-                class="aspect-square w-full rounded-2xl object-cover shadow-lg"
+                class="w-full h-full rounded-3xl shadow-lg object-cover object-top"
               />
             </div>
 
             <p
               class="mt-3 text-sm text-gray-600 glass-soft inline-block rounded-xl px-3 py-1.5"
             >
-              Available for internships — Flexible (Onsite / Remote / Hybrid)
+              Available for Full-Time — Flexible (Onsite / Remote / Hybrid)
             </p>
           </div>
         </div>
@@ -155,7 +163,7 @@ function stopTypewriter() {
   cancel = true
 }
 
-/* ==== Reveal animation (ของเดิม) ==== */
+/* ==== Reveal animation ==== */
 let observer
 onMounted(() => {
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches

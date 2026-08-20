@@ -56,11 +56,7 @@ onBeforeUnmount(() => {
 
 <template>
   <section id="skills" ref="sectionRef" class="mx-auto max-w-7xl px-6 pb-10 lg:px-12">
-    <p
-      class="mb-3 text-lg font-medium uppercase tracking-widest text-gray-600"
-      data-animate
-      data-delay="0"
-    >
+    <p class="mb-3 text-lg font-medium uppercase tracking-widest text-gray-600" data-animate data-delay="0">
       Skills
     </p>
 
@@ -69,12 +65,24 @@ onBeforeUnmount(() => {
       <div class="p-6 bg-white shadow-md rounded-xl skill-card" data-animate>
         <h3 class="text-xl font-semibold mb-4 text-gray-800">Frontend & Mobile</h3>
         <ul class="space-y-3 text-gray-700">
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="devicon:nextjs" width="24" /> React / Next.js</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:vue" width="24" /> Vue.js</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:react" width="24" /> React Native</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:flutter" width="24" /> Flutter</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:tailwindcss-icon" width="24" /> Tailwind CSS / MUI</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:typescript-icon" width="24" /> TypeScript</li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="devicon:nextjs" width="24" /> React / Next.js
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:vue" width="24" /> Vue.js
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:react" width="24" /> React Native
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:flutter" width="24" /> Flutter
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:tailwindcss-icon" width="24" /> Tailwind CSS / MUI
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:typescript-icon" width="24" /> TypeScript
+          </li>
         </ul>
       </div>
 
@@ -82,30 +90,60 @@ onBeforeUnmount(() => {
       <div class="p-6 bg-white shadow-md rounded-xl skill-card" data-animate>
         <h3 class="text-xl font-semibold mb-4 text-gray-800">Backend</h3>
         <ul class="space-y-3 text-gray-700">
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:go" width="24" /> Golang (Fiber, GORM)</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:nodejs-icon" width="24" /> Node.js (Express)</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="mdi:api" width="24" /> REST APIs</li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:go" width="24" /> Golang (Fiber, GORM)
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:nodejs-icon" width="24" /> Node.js (Express)
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="mdi:api" width="24" /> REST APIs
+          </li>
         </ul>
       </div>
 
-      <!-- Database -->
+      <!-- Database & BaaS -->
       <div class="p-6 bg-white shadow-md rounded-xl skill-card" data-animate>
-        <h3 class="text-xl font-semibold mb-4 text-gray-800">Database</h3>
+        <h3 class="text-xl font-semibold mb-4 text-gray-800">Database & BaaS</h3>
         <ul class="space-y-3 text-gray-700">
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:mongodb" width="24" /> MongoDB</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:postgresql" width="24" /> PostgreSQL</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:mysql" width="24" /> MySQL</li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:mongodb" width="24" /> MongoDB
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:postgresql" width="24" /> PostgreSQL
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:mysql" width="24" /> MySQL
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:supabase-icon" width="24" /> Supabase
+          </li>
         </ul>
       </div>
 
-      <!-- Tools -->
+      <!-- Tools & Automation -->
       <div class="p-6 bg-white shadow-md rounded-xl skill-card" data-animate>
-        <h3 class="text-xl font-semibold mb-4 text-gray-800">Tools & Platforms</h3>
+        <h3 class="text-xl font-semibold mb-4 text-gray-800">Tools & Automation</h3>
         <ul class="space-y-3 text-gray-700">
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:git-icon" width="24" /> Git</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:docker-icon" width="24" /> Docker</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:postman-icon" width="24" /> Postman</li>
-          <li class="flex items-center gap-2 skill-item" data-animate><Icon icon="logos:visual-studio-code" width="24" /> VS Code</li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:git-icon" width="24" /> Git
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:docker-icon" width="24" /> Docker
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="simple-icons:appsmith" style="color: #F3672A;" width="24" /> Appsmith
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="simple-icons:n8n" style="color: #EA4B71;" width="24" /> n8n
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="mdi:database-arrow-right" style="color: #004F8C;" width="24" /> ETL (Pentaho)
+          </li>
+          <li class="flex items-center gap-2 skill-item" data-animate>
+            <Icon icon="logos:postman-icon" width="24" /> Postman
+          </li>
+
         </ul>
       </div>
     </div>
@@ -126,22 +164,34 @@ onBeforeUnmount(() => {
   transform: none;
   filter: none;
   transition:
-    opacity 420ms cubic-bezier(.22,.61,.36,1),
-    transform 520ms cubic-bezier(.22,.61,.36,1),
-    filter 520ms cubic-bezier(.22,.61,.36,1);
+    opacity 420ms cubic-bezier(.22, .61, .36, 1),
+    transform 520ms cubic-bezier(.22, .61, .36, 1),
+    filter 520ms cubic-bezier(.22, .61, .36, 1);
 }
 
 /* การ์ด pop นุ่ม ๆ */
-.skill-card.will-animate { transform: translateY(18px) scale(.975); }
-.skill-card.show { transition-duration: 580ms, 640ms, 640ms; }
+.skill-card.will-animate {
+  transform: translateY(18px) scale(.975);
+}
+
+.skill-card.show {
+  transition-duration: 580ms, 640ms, 640ms;
+}
 
 /* ไอเท็มภายในการ์ด */
-.skill-item.will-animate { transform: translateY(10px); }
-.skill-item.show { transition-duration: 340ms, 420ms, 420ms; }
+.skill-item.will-animate {
+  transform: translateY(10px);
+}
+
+.skill-item.show {
+  transition-duration: 340ms, 420ms, 420ms;
+}
 
 /* ลด motion */
 @media (prefers-reduced-motion: reduce) {
-  .will-animate, .show {
+
+  .will-animate,
+  .show {
     transition: none !important;
     transform: none !important;
     opacity: 1 !important;
